@@ -1,0 +1,15 @@
+requirements:
+langchain
+groq
+webbaseloader
+json data
+chromadb
+llama model
+
+steps:
+1. extract the job description data from the webpage with the help of web base loader
+2. convert the data into json format
+3. upload my portfolio on the vector database ( for vector database i used chromadb).
+4. Gave a prompt to the llm model for the generation of the email.
+5. At the end the model read the json data of the job description and generator a email based on my portfolio which suits the best with the job description.
+
